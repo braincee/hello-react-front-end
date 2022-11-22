@@ -13,7 +13,7 @@ const Greeting = () => {
     <div>
       <h1>{message.greeting}</h1>
       <button type="button" onClick={() => dispatch(getMessage())}>
-         Greeting Message
+        Greeting Message
       </button>
     </div>
   );
